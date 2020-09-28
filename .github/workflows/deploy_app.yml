@@ -39,6 +39,6 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --project bt3103-2020 --only hosting
+          args: deploy --only hosting:bt3103-2020
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
