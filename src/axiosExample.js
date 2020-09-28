@@ -1,6 +1,6 @@
 import {Line} from 'vue-chartjs'
 import axios from 'axios'
-
+//Comment added
 export default{
     extends:Line,
     data: () => ({
